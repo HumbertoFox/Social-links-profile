@@ -1,0 +1,116 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark_Grey: hsl(0, 0%, 12%);
+    --Off_Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1440px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Off_Black);
+}
+
+.section {
+    width: 384px;
+    height: 613px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Dark_Grey);
+    font-family: 'Inter';
+    padding: 40px;
+    border-radius: 11px;
+}
+
+.img_perfil {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.h1_name {
+    color: var(--White);
+    padding-top: 26px;
+}
+
+.h2_skill {
+    font-size: 14px;
+    color: var(--Green);
+    padding-top: 10px;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--White);
+    padding-top: 27px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-top: 25px;
+}
+
+.links_social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: var(--White);
+    background-color: var(--Grey);
+    padding: 14px;
+    border-radius: 7px;
+    transition: .4s ease-in-out;
+}
+
+.links_social:hover {
+    background-color: var(--Green);
+    color: var(--Off_Black);
+    font-weight: bold;
+    cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ea626b34-c71f-4b1d-9ffc-3a56fde3fff6), auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 375px;
+        justify-content: flex-start;
+        padding-top: 117px;
+    }
+
+    .section {
+        width: 330px;
+        height: 580px;
+        padding: 23px 25px;
+    }
+}

@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="section">
+      <img src="./src/assets/images/avatar-jessica.jpeg" class="img_perfil" alt="image perfil">
+      <h1 class="h1_name">Jessica Randall</h1>
+      <h2 class="h2_skill">London, United Kingdom</h2>
+      <p class="paragraph">"Front-end developer and avid reader."</p>
+      <nav class="nav">
+        <a href="/" class="links_social" title="GitHub">
+          GitHub
+        </a>
+        <a href="/" class="links_social" title="Frontend Mentor">
+          Frontend Mentor
+        </a>
+        <a href="/" class="links_social" title="LinkedIn">
+          LinkedIn
+        </a>
+        <a href="/" class="links_social" title="Twitter">
+          Twitter
+        </a>
+        <a href="/" class="links_social" title="Instagram">
+          Instagram
+        </a>
+      </nav>
+    </section>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noopener" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.linkedin.com/in/humberto-ribeiro-sales/" rel="noopener" target="_blank">Humberto Ribeiro</a>.
+      </div>
+    </footer>
+  </main>
 </body>
+
 </html>
