@@ -7,10 +7,19 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 
 <div align="center">
 
-  <img src="./src/assets/design/desktop-preview.jpg" width="400px"/>
-  <img src="./src/assets/design/destkop-design.jpg" width="400px"/>
-  <img src="./src/assets/design/active-states.jpg" width="400px"/>
-  <img src="./src/assets/design/mobile-design.jpg" width="400px"/>
+  <img src="./src/assets/design/desktop-preview.jpg" width="400px" />
+
+  ##
+
+  <img src="./src/assets/design/destkop-design.jpg" width="400px" />
+
+  ##
+
+  <img src="./src/assets/design/active-states.jpg" width="400px" />
+
+  ##
+
+  <img src="./src/assets/design/mobile-design.jpg" width="400px" />
 
 </div>
 
@@ -36,9 +45,12 @@ Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codif
 - Marcação semântica HTML5
 - Propriedades personalizadas CSS
 - Caixa flexível
+
 ## Desenvolvido em:
 
 <div>
+
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30px"/>
+  
 </div>
