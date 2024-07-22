@@ -79,6 +79,7 @@ main {
     justify-content: center;
     font-size: 14px;
     color: var(--White);
+    font-weight: bold;
     background-color: var(--Grey);
     padding: 14px;
     border-radius: 7px;
@@ -88,7 +89,6 @@ main {
 .links_social:hover {
     background-color: var(--Green);
     color: var(--Off_Black);
-    font-weight: bold;
     cursor: url(https://github.com/HumbertoFox/repository/assets/126817628/ea626b34-c71f-4b1d-9ffc-3a56fde3fff6), auto;
 }
 
